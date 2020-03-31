@@ -1,5 +1,5 @@
 /**
- * ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * ·ÖÎöÒ»ÏÂÕâ¸ö³ÌĞòµÄÊä³ö
  * @author mashibing
  */
 
@@ -8,7 +8,7 @@ package com.lwf.juc.c_005;
 public class T implements Runnable {
 
 	private /*volatile*/ int count = 100;
-	//åŠ äº†synchronizedåå°±ä¸éœ€è¦åŠ volatileäº†
+	
 	public /*synchronized*/ void run() { 
 		count--;
 		System.out.println(Thread.currentThread().getName() + " count = " + count);

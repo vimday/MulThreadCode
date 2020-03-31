@@ -1,7 +1,7 @@
 package com.lwf.juc.c_023singleton;
 
 public class SingletonDCL {
-    private static volatile SingletonDCL INSTANCE;//必须要加volatile 防止指令重排
+    private static  volatile SingletonDCL INSTANCE;//必须要加volatile 防止指令重排
     private SingletonDCL(){}
 
     public static SingletonDCL getINSTANCE(){

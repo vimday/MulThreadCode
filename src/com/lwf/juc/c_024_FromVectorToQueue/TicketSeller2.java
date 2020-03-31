@@ -1,14 +1,14 @@
 /**
- * ï¿½ï¿½Nï¿½Å»ï¿½Æ±ï¿½ï¿½Ã¿ï¿½ï¿½Æ±ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½
- * Í¬Ê±ï¿½ï¿½10ï¿½ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½Æ±
- * ï¿½ï¿½Ð´Ò»ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½
+ * ÓÐNÕÅ»ð³µÆ±£¬Ã¿ÕÅÆ±¶¼ÓÐÒ»¸ö±àºÅ
+ * Í¬Ê±ÓÐ10¸ö´°¿Ú¶ÔÍâÊÛÆ±
+ * ÇëÐ´Ò»¸öÄ£Äâ³ÌÐò
  * 
- * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½Ü»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½ï¿½ï¿½â£¿
+ * ·ÖÎöÏÂÃæµÄ³ÌÐò¿ÉÄÜ»á²úÉúÄÄÐ©ÎÊÌâ£¿
  *  
- * Ê¹ï¿½ï¿½Vectorï¿½ï¿½ï¿½ï¿½Collections.synchronizedXXX
- * ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Â£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * Ê¹ÓÃVector»òÕßCollections.synchronizedXXX
+ * ·ÖÎöÒ»ÏÂ£¬ÕâÑùÄÜ½â¾öÎÊÌâÂð£¿
  * 
- * @author ï¿½ï¿½Ê¿ï¿½ï¿½
+ * @author ÂíÊ¿±ø
  */
 package com.lwf.juc.c_024_FromVectorToQueue;
 
@@ -20,7 +20,7 @@ public class TicketSeller2 {
 	
 	
 	static {
-		for(int i=0; i<1000; i++) tickets.add("Æ± ï¿½ï¿½Å£ï¿½" + i);
+		for(int i=0; i<1000; i++) tickets.add("Æ± ±àºÅ£º" + i);
 	}
 	
 	public static void main(String[] args) {
@@ -36,7 +36,7 @@ public class TicketSeller2 {
 					}
 					
 					
-					System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½--" + tickets.remove(0));
+					System.out.println("ÏúÊÛÁË--" + tickets.remove(0));
 				}
 			}).start();
 		}

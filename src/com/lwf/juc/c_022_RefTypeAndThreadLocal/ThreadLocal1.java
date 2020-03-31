@@ -1,7 +1,7 @@
 /**
- * ThreadLocal锟竭程局诧拷锟斤拷锟斤拷
+ * ThreadLocal线程局部变量
  * 
- * @author 锟斤拷士锟斤拷
+ * @author 马士兵
  */
 package com.lwf.juc.c_022_RefTypeAndThreadLocal;
 

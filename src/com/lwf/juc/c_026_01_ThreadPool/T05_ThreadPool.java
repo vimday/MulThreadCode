@@ -1,5 +1,5 @@
 /**
- * 锟竭程池的革拷锟斤拷
+ * 线程池的概念
  */
 package com.lwf.juc.c_026_01_ThreadPool;
 

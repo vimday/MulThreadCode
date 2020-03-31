@@ -1,6 +1,6 @@
 /**
- * ï¿½ï¿½Ê¶future
- * ï¿½ì²½
+ * ÈÏÊ¶future
+ * Òì²½
  */
 package com.lwf.juc.c_026_01_ThreadPool;
 
@@ -16,7 +16,7 @@ public class T06_00_Future {
 		
 		new Thread(task).start();
 		
-		System.out.println(task.get()); //ï¿½ï¿½ï¿½ï¿½
+		System.out.println(task.get()); //×èÈû
 
 
 	}

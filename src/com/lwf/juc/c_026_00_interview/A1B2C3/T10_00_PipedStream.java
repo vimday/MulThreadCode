@@ -49,7 +49,7 @@ public class T10_00_PipedStream {
 
         new Thread(() -> {
 
-            byte[] buffer = new byte[9];
+            byte[] buffer = new byte[15];
 
             try {
                 for(char c : aC) {

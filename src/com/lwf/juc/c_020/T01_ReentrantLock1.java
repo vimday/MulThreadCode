@@ -1,7 +1,7 @@
 /**
- * reentrantlockï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½synchronized
- * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½m1ï¿½ï¿½ï¿½ï¿½this,Ö»ï¿½ï¿½m1Ö´ï¿½ï¿½ï¿½ï¿½Ïµï¿½Ê±ï¿½ï¿½,m2ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½
- * ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½Ï°synchronizedï¿½ï¿½Ô­Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * reentrantlockÓÃÓÚÌæ´úsynchronized
+ * ±¾ÀýÖÐÓÉÓÚm1Ëø¶¨this,Ö»ÓÐm1Ö´ÐÐÍê±ÏµÄÊ±ºò,m2²ÅÄÜÖ´ÐÐ
+ * ÕâÀïÊÇ¸´Ï°synchronized×îÔ­Ê¼µÄÓïÒå
  * @author mashibing
  */
 package com.lwf.juc.c_020;
